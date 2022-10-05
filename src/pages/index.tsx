@@ -44,7 +44,6 @@ const Home: NextPage = () => {
       access_code: requestData.access_code.toLowerCase(),
     }
     setLoading(true);
-    console.log(requestData)
     await signIn(requestData);
     await loadData()
     setTimeout(() => {
