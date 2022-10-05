@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="Convite casamento Aleixo e Bruna" />
+          <meta name="description" content="Convite casamento Adriano e Jessica" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 
           <link rel="shortcut icon" href="/favicon.jpg" />

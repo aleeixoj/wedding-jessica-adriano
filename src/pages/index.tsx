@@ -41,16 +41,15 @@ const Home: NextPage = () => {
 
   async function handleGet(requestData: any) {
     requestData = {
-      access_code: requestData.access_code.toLowerCase()
+      access_code: requestData.access_code.toLowerCase(),
     }
     setLoading(true);
+    console.log(requestData)
     await signIn(requestData);
     await loadData()
     setTimeout(() => {
-      if (responseData) {
-        setAccessModal(false);
-        setOpenModal(true);
-      }
+      setAccessModal(false);
+      setOpenModal(true);
       setLoading(false);
     }, 1000);
 
@@ -195,7 +194,7 @@ const Home: NextPage = () => {
                 fontWeight={'300'}
                 fontSize={'5xl'}
               >
-                26 de novembro de 2022
+                26 de novembro de 2022 às 16:00
               </Heading>
 
               <Spacer p="2" />
@@ -236,7 +235,7 @@ const Home: NextPage = () => {
             >
               <Link
                 href={
-                  'https://www.querodecasamento.com.br/lista-de-casamento/aleixok-brunasa'
+                  'https://www.finalfeliz.de/jessica-aparecida-dos-santos-adriano-barbosa-de-sa'
                 }
               >
                 <a target="_blank" rel="noreferrer">

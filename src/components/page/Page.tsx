@@ -13,14 +13,14 @@ const Page = ({ title, description, children }: IPageProps) => {
         title={title}
         description={description}
         openGraph={{
-          url: 'https://boda.vercel.app/',
-          title: 'Aleixo & Bruna te convidam para festa de casamento',
+          url: 'https://wedding.vercel.app/',
+          title: 'Adriano e Jessica te convidam para festa de casamento',
           images: [
             {
-              url: 'https://lh3.googleusercontent.com/fIfVad3LnDtGcE9bitYZTf_O3nQwHE2opQ0QnFE5kyqmmGrRAHtZ5wsLGSprBml_IUCT0BWvMmJH2XY-cha6If4XnKK032aALnwu_1NOYUn0QFPWRLBh4aCjSuStbIY2IT19TRG5c7_hOicpiLUP7VThzA2Px2huapjIKuJvS4Q1YcXJi6iFDPyRsy7A0kXdrfl9qeDDcCXXTte6iHRKPFY5ZyDsEUZBARsL0ACXFPjOQFY-iRmXy55rnakoFDpqwo0wSIvJHdI1n1vtPskfQd7wFqcy0HnBCLVpmJIgMSaWeIYg1qlHInrfiKscEsCX0JVn1beBB0INmjl_OR1lQ7q9-mppcFJSWtyzPE52BAoXz9e4dQszJVTXtdgfFk9-N-tyKHyg3H4TJl8artitLnpKD_aeFWCa10u5hdpfAzILzpywuqbm8eI13hu5pyYUkEIF-b4UC1m2mf17e_oG5bt87z9CHyxQwSdsggdAdNv6LG_zTnYyBJiwqO9udHgHqNE3-g2XXiQy95D1Qq8kWYtjwgNnFkMllcxU_OR5Q0NBI0pbaFDjsXtMOo6sNawl6H5Pkk7co_kaA69QG6wXMdo2L7UgP0tuBe0uIoIn8URjtu2Iwx8NmGACDS3ifE6nAyDEhNAB9qoRVLjLU5kYSfrd4122keMAyOZrwkUGjCcYfCr-P3GRKcrzQjD3rsuKXtKT_tvGz5KdnRXMfFjbZ9W2=w733-h979-no?authuser=0',
+              url: 'https://lh3.googleusercontent.com/ceLEFUNqv6FE5jqTiXv6yU50PdA9KcZqlF9b56-Ms1iSuJkiVvnts_LOrCIY8IDcT9WaTHjEt0lqLE6CbqS32G4ekpZfz2uF7D6Q6kAuPh5icUrhlH5HZo7CO6yyW5mbBXtSopFmPjtq3EymLzVXZPfhRCerBSfRf8QPf8FPv7GDa4wvclcAGAM279-N3BdCART_wWWhUP5yKjZAiEQ4vA09MToOLwNZVlA9lV42r8iGKFnmYa1wTEfcA1xgvsHIXeH2gecSK2_L06Ms6zsH5rI_cPRwvva-NzRIz38iv-0CbD2btM-E0QnCCITFNlj_W4AlyRqY4uiDDHW4seAfOM_Z4cfkn154I66-cD881STTR7KPcAuVdIbGA-z6af_9pAXpolPX4KrUy9mxBKmSEr5cM3SAP83A0uVS-KYehWoKldjqS-1dft-pU0sJ41cYP85dYftNcy77-VC5Kercos8X5SfukwlOfTEgwcO_CV1sClrzQ07MnRrR_ZBqg1B4nV8CmTVzCX2qwCYJCHhb0bBHMkSaWTOPYpP-4HNPespwroonFbzPHntL8MJaKBv4lwjCbUP9K3spDXnewbf60dNhcdecItfqcatyCD5gi-tPtccz_tDLGGaMnboGmDndgzQ6JPml1KLvIuvDIdtmfcz84Ewt5IFqHotcqjKDTjEqEvVAWSX1hw9OGFcGvzGqzAvipjHJH3RN_sl9bdPIHjw8ZjW5ClwzBgs1ajME453ASFjkHMWR9QW8QIFmg9nN2hEYVq_CJ2YuuXiJD7Wm1Uefh_Lk3tFl1eypK5hOFQc5T9uQ3kTcIzbd3NSM8ONblt4Q4oGxpAkfwzyx93Xr1mnMGSA9rLftaGVEBjlRhAm43ETCR8zS2qXAd652SIJYcx4Qs4KvDhX2kYaWlvI408Yv8MxUJomoOuzwZUhV_udDYqiM8V_VUIr8W4weOYrxTOUt6aKO34oN=w328-h437-no?authuser=0',
               width: 240,
               height: 240,
-              alt: 'Aleixo e Bruna',
+              alt: 'Adriano e Jessica',
             },
           ],
         }}
