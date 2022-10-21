@@ -348,7 +348,7 @@ const Home: NextPage = () => {
               flexDirection: 'column',
               alignItems: 'center',
               maxWidth: '40rem',
-              height: '40rem',
+              height: '42rem',
               margin: '0 auto',
               background: 'var(--chakra-colors-white)',
               boxShadow: '0px 0px 15px 1px rgba(0,0,0,0.4)',
@@ -425,6 +425,11 @@ const Home: NextPage = () => {
                 </Flex>
               );
             })}
+            <Spacer py="1" />
+
+            <Text >Confirmar até 23/10/2022</Text>
+
+            <Spacer py="1" />
 
             <Button
               bg={'pink.300'}

@@ -14,7 +14,8 @@ function RadioCard(props: RadioProps) {
         {...checkbox}
         cursor="pointer"
         borderRadius="md"
-        boxShadow="lg"
+        border="1px"
+        // boxShadow="lg"
         _checked={{
           bg:
             props.value === 'Confirmado'
