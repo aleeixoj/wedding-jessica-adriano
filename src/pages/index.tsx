@@ -242,7 +242,7 @@ const Home: NextPage = () => {
                 </a>
               </Link>
             </Button>
-            <Button
+            {/* <Button
               bg={'pink.300'}
               color={'white'}
               _hover={{ bg: 'pink.400' }}
@@ -252,7 +252,7 @@ const Home: NextPage = () => {
               onClick={() => handleAccessModal()}
             >
               Confirmar presença
-            </Button>
+            </Button> */}
 
           </Flex>
           <Spacer p="10" />
